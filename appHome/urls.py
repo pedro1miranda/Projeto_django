@@ -7,6 +7,6 @@ from . import views;
 #lista de objetos path, define padrões urls
 
 urlpatterns = [
-    path("appHome/", views.appHome, name="appHome"),
+    path('', views.appHome, name="appHome"),
 ]
 
