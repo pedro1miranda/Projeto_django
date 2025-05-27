@@ -1,6 +1,9 @@
-h1{
-    color: aqua;
-}
-*{
+body{
+    box-sizing: border-box;
+    margin: 0 auto;
     background-color: aqua;
+}
+main{
+    width: 90%;
+    margin: auto;
 }
