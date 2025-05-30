@@ -7,4 +7,4 @@ from django.http import HttpResponse
 #Função que cria a view
 
 def appHome(request):
-    return render(request, 'home.html')
+    return render(request, 'base.html')
