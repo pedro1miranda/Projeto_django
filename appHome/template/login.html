@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %}LOGIN{% endblock %}
+
+{% block main %}
+<main style="font-family: 'Segoe UI', sans-serif; background-color: #f2e4f9; padding: 4rem 1rem; display: flex; justify-content: center; align-items: center; min-height: 100vh;">
+  <section style="background-color: white; padding: 2rem 3rem; border-radius: 16px; box-shadow: 0 0 20px rgba(131, 156, 181, 0.2); max-width: 400px; width: 100%;">
+    <h2 style="text-align: center; color: #686466; margin-bottom: 2rem;">Bem-vindo à Live Tec Solutions</h2>
+
+    <form>
+      <label for="email" style="color: #839cb5; font-weight: 500;">E-mail</label>
+      <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com"
+             style="width: 100%; padding: 0.75rem; margin: 0.5rem 0 1.5rem 0; border: 1px solid #b1e1e9; border-radius: 8px;">
+
+      <label for="senha" style="color: #839cb5; font-weight: 500;">Senha</label>
+      <input type="password" id="senha" name="senha" placeholder="********"
+             style="width: 100%; padding: 0.75rem; margin: 0.5rem 0 2rem 0; border: 1px solid #b1e1e9; border-radius: 8px;">
+
+      <button type="submit"
+              style="width: 100%; padding: 0.75rem; background-color: #96d7eb; color: white; border: none; border-radius: 8px; font-weight: bold; cursor: pointer;">
+        Entrar
+      </button>
+    </form>
+
+    <p style="margin-top: 1.5rem; font-size: 0.9rem; text-align: center; color: #839cb5;">
+      Ainda não tem uma conta? <a href="#" style="color: #96d7eb; text-decoration: none;">Cadastre-se</a>
+    </p>
+  </section>
+</main>
+
+{% endblock %}

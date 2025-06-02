@@ -8,5 +8,7 @@ from . import views;
 
 urlpatterns = [
     path('', views.appHome, name="appHome"),
+    path('login/', views.paginaLogin, name="login"),
+    
 ]
 
